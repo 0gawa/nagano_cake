@@ -3,6 +3,8 @@ class ManagersController < ApplicationController
   end
 
   def index
+    @managers = Admin.all
+  
   end
 
   def create
