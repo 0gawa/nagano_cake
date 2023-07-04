@@ -1,9 +1,9 @@
-class ManagersController < ApplicationController
+class Admin::ManagersController < ApplicationController
   def new
   end
 
   def index
-    @managers = Admin.all
+    @items = Item.all
   
   end
 
